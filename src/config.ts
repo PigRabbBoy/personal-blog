@@ -11,12 +11,12 @@ export const siteConfig: SiteConfig = {
   subtitle: 'Personal Blog Site',
   lang: 'en',         // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko', 'es', 'th'
   themeColor: {
-    hue: 355,
+    hue: 360,
     fixed: true,
   },
   banner: {
     enable: true,
-    src: 'assets/images/banner.jpg',   // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+    src: 'assets/images/banner.webp',   // Relative to the /src directory. Relative to the /public directory if it starts with '/'
     position: 'center',      // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
     credit: {
       enable: false,         // Display the credit text of the banner image
@@ -51,7 +51,7 @@ export const navBarConfig: NavBarConfig = {
 }
 
 export const profileConfig: ProfileConfig = {
-  avatar: 'assets/images/avatar.png',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+  avatar: 'assets/images/avatar.webp',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
   name: 'PigRabb',
   bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
   links: [
